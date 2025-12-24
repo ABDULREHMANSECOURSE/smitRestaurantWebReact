@@ -4,12 +4,10 @@ const PProductCard = ({ name, price, image }) => {
   return (
     <>
       <span className='pProduct'>
-        <span className='pProductImage'>
-          <img src={image} alt="" />
-        </span>
+        <img src={image} alt="" />
         <span className='pProductDetail'>
-          <h2 className='pProductName'>{name}</h2>
-          <span className='pProductPrice'>from Rs. {price}</span>
+          <h2>{name}</h2>
+          <h4>from Rs. {price}</h4>
         </span>
       </span>
     </>

@@ -5,44 +5,39 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+body {
+  background-image: url("https://assets.indolj.io/upload/1697727771-background.jpg");
+  height: 100vh;
+}
+
 .pProducts {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .pProduct {
+  height: 250px;
+  width: 250px;
   position: relative;
-  width: 100%;
-  height: 100%;
 }
 
-.pProductImage {
+.pProduct img {
+  width: 100%;
+  height: 100%;
   position: absolute;
-}
-
-.pProductImage img {
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
 }
 
 .pProductDetail {
   position: relative;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.pProductName {
-  position: relative;
-}
-
-.pProductPrice {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  background: white;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 13px;
+.pProductDetail h4 {
+  align-self: flex-end;
 }
