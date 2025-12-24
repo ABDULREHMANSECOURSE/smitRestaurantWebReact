@@ -6,8 +6,7 @@
 }
 
 body {
-  background-image: url("https://assets.indolj.io/upload/1697727771-background.jpg");
-  background-size: cover;
+  background: url("https://assets.indolj.io/upload/1697727771-background.jpg") center / cover no-repeat fixed;
 }
 
 .pProducts {
@@ -46,4 +45,57 @@ body {
 
 .pProductDetail h4 {
   align-self: flex-end;
+}
+
+.categoryNav {
+  background-color: rgb(242, 157, 19);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.categoryNav a {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0.4rem 0;
+  border-radius: .3rem;
+  color: black;
+  padding: .5rem 1rem .4rem;
+  transition: all .5s ease-in-out;
+}
+
+.categoryNav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.products {
+  padding: 30px;
+}
+
+.searchBox {
+  border: 1px solid rgb(242, 157, 19);
+  border-radius: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBox input {
+  width: 100%;
+  border: none;
+}
+
+.searchBox span {
+  padding: .4rem;
+}
+
+.searchBox svg {
+  background-color: rgb(242, 157, 19);
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 3px;
+  height: 20px;
+  transform: rotate(180deg);
 }
