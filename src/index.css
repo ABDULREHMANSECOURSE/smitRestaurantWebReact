@@ -2,19 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
 }
 
-body {
+
+main {
   background: url("https://assets.indolj.io/upload/1697727771-background.jpg") center / cover no-repeat fixed;
+  padding: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .pProducts {
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -70,20 +73,24 @@ body {
   color: white;
 }
 
-.products {
-  padding: 30px;
-}
-
 .searchBox {
+  text-align: start;
+  margin: 0 auto;
+  width: 100%;
   border: 1px solid rgb(242, 157, 19);
   border-radius: 3.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .searchBox input {
   width: 100%;
+  padding: 12px;
+  border-radius: 3.5rem;
   border: none;
+  color: rgb(242, 157, 19);
+  font-weight: 600;
 }
 
 .searchBox span {
@@ -98,4 +105,8 @@ body {
   padding: 3px;
   height: 20px;
   transform: rotate(180deg);
+}
+
+.popularItems {
+  margin: 33px 0;
 }
