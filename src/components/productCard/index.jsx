@@ -1,13 +1,19 @@
 import React from 'react'
 
-const ProductCard = () => {
+const PProductCard = ({name,price,image}) => {
   return (
     <>
-    <span>
-        
+    <span className='pProduct'>
+        <span className='pProductImage'>
+          <img src={image} alt="" />
+        </span>
+        <span className='pProductDetail'>
+          <h2>{name}</h2>
+          <span>from Rs. {price}</span>
+        </span>
     </span>
     </>
   )
 }
 
-export default ProductCard
+export default PProductCard
