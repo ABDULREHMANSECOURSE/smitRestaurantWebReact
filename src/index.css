@@ -29,7 +29,9 @@ main {
   display: flex;
   justify-content: center;
   z-index: 9;
+  align-items: center;
   gap: 1%;
+  padding: 0 2%;
 }
 
 .categoryNav a {
@@ -41,6 +43,8 @@ main {
   color: black;
   padding: .5rem 1rem .4rem;
   transition: all .5s ease-in-out;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .categoryNav a:hover {
@@ -226,5 +230,14 @@ main {
 
   .productCard {
     flex: auto;
+  }
+}
+
+@media(max-width:770px) {
+  .categoryNav {
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    flex-wrap: nowrap;
   }
 }
