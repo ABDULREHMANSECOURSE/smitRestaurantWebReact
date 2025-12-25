@@ -37,6 +37,15 @@ const Home = () => {
           image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443304-Special%20Nihari-min.png%3Fq%3D10&w=640&q=75", name: "Special Nihari", price: "1450"
         }
       ]
+    },
+    {
+      id: "haleem",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710160-_0007_HALEEM.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        {
+          image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711017-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Chiken", price: "200"
+        }
+      ]
     }
   ]
 

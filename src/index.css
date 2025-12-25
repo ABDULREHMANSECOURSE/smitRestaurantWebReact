@@ -137,6 +137,7 @@ main {
   box-shadow: 0 0 1.25rem .2rem rgba(0, 0, 0, .08);
   border: 3.5px rgb(242, 157, 19);
   transition: all .5s ease-in-out;
+  background-color: #fff;
 }
 
 .productCard:hover {
@@ -194,6 +195,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.productsMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .productMenuSection>img {
