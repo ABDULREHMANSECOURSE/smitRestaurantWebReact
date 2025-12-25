@@ -7,11 +7,18 @@
 
 main {
   background: url("https://assets.indolj.io/upload/1697727771-background.jpg") center / cover no-repeat fixed;
-  padding: 30px;
-  max-width: 1170px;
+  height: 100vh;
+}
+
+.productsMenu {
+  padding: 2%;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .pProducts {
@@ -19,10 +26,10 @@ main {
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .pProduct {
-  flex-wrap: wrap;
   flex: 1;
   height: 250px;
   width: 250px;
@@ -51,10 +58,11 @@ main {
 }
 
 .categoryNav {
+  position: sticky;
   background-color: rgb(242, 157, 19);
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1%;
 }
 
 .categoryNav a {
@@ -109,4 +117,65 @@ main {
 
 .popularItems {
   margin: 33px 0;
+}
+
+.products {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.productCard {
+  cursor: pointer;
+  width: 256px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1.25rem .2rem rgba(0, 0, 0, .08);
+  border: 3.5px rgb(242, 157, 19);
+  transition: all .5s ease-in-out;
+}
+
+.productCard:hover {
+  border: 3.5px solid rgb(242, 157, 19);
+  scale: 1.05;
+}
+
+.productCard img {
+  max-width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.productCardDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  gap: 10px;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+
+
+.productCardDetail h2 {
+  padding: 15px;
+}
+
+.productCardDetail span {
+  font-weight: 700;
+  font-size: .8rem;
+  color: rgb(242, 157, 19);
+}
+
+.productCardDetail button {
+  margin: 5px 12px 15px 12px;
+  padding: 8px 20px;
+  font-size: 14px;
+  background-color: rgb(242, 157, 19);
+  color: #fff;
+  border: none;
+  width: 57%;
+  min-height: 40px;
+  border-radius: 100px;
 }
