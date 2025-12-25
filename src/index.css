@@ -7,10 +7,11 @@
 
 main {
   background: url("https://assets.indolj.io/upload/1697727771-background.jpg") center / cover no-repeat fixed;
-  height: 100vh;
+  height: 100%;
+  position: relative;
 }
 
-.productsMenu {
+.productsSection {
   padding: 2%;
   max-width: 1000px;
   margin: 0 auto;
@@ -19,6 +20,32 @@ main {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.categoryNav {
+  top: 0;
+  position: sticky;
+  background-color: rgb(242, 157, 19);
+  display: flex;
+  justify-content: center;
+  z-index: 9;
+  gap: 1%;
+}
+
+.categoryNav a {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0.4rem 0;
+  border-radius: .3rem;
+  color: black;
+  padding: .5rem 1rem .4rem;
+  transition: all .5s ease-in-out;
+}
+
+.categoryNav a:hover {
+  background-color: black;
+  color: white;
 }
 
 .pProducts {
@@ -55,30 +82,6 @@ main {
 
 .pProductDetail h4 {
   align-self: flex-end;
-}
-
-.categoryNav {
-  position: sticky;
-  background-color: rgb(242, 157, 19);
-  display: flex;
-  justify-content: center;
-  gap: 1%;
-}
-
-.categoryNav a {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 15px;
-  margin: 0.4rem 0;
-  border-radius: .3rem;
-  color: black;
-  padding: .5rem 1rem .4rem;
-  transition: all .5s ease-in-out;
-}
-
-.categoryNav a:hover {
-  background-color: black;
-  color: white;
 }
 
 .searchBox {
@@ -128,7 +131,7 @@ main {
 .productCard {
   cursor: pointer;
   width: 256px;
-  border-radius: 17px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 1.25rem .2rem rgba(0, 0, 0, .08);
@@ -143,8 +146,8 @@ main {
 
 .productCard img {
   max-width: 100%;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .productCardDetail {
@@ -153,8 +156,8 @@ main {
   align-items: center;
   background-color: #fff;
   gap: 10px;
-  border-end-end-radius: 30px;
-  border-end-start-radius: 30px;
+  border-end-end-radius: 20px;
+  border-end-start-radius: 20px;
 }
 
 
@@ -176,6 +179,13 @@ main {
   color: #fff;
   border: none;
   width: 57%;
-  min-height: 40px;
+  min-height: 30px;
   border-radius: 100px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.productCardDetail button:hover {
+  scale: 1.1;
+  font-size: 13.5px;
 }

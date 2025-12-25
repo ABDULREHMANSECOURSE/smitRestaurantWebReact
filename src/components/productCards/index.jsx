@@ -14,13 +14,13 @@ export const PProductCard = ({ name, price, image }) => {
   )
 };
 
-export const ProductCard = () => {
+export const ProductCard = ({ image, name, price }) => {
   return (
     <span className='productCard'>
-      <img src="https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697440665-_0008_7a.jpg%3Fq%3D10&w=640&q=75" alt="" />
+      <img src={image} alt="" />
       <div className='productCardDetail'>
-        <h2>Nihari</h2>
-        <span>from Rs. 600</span>
+        <h2>{name}</h2>
+        <span>from Rs. {price}</span>
         <button>Add</button>
       </div>
     </span>
