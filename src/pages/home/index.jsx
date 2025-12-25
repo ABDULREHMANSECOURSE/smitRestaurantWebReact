@@ -12,7 +12,7 @@ const Home = () => {
 
   const sectionBtnData = [
     { text: "Nihari", link: "#nihari" },
-    { text: "Haleem", link: "#Haleem" },
+    { text: "Haleem", link: "#haleem" },
     { text: "Biryani / Pulao", link: "#biryaniPulao" },
     { text: "Tandoor", link: "#tandoor" },
     { text: "Sweet Dishes", link: "#sweetDishes" },
@@ -76,12 +76,12 @@ const Home = () => {
           <div className='productsMenu'>
             {productData.map((item, index) => {
               return (
-                <section id={"#" + item.id} className='productMenuSection'>
+                <section id={item.id} className='productMenuSection'>
                   <img src={item.topBaner} alt="" />
                   <div className='products'>
-                    {item.products.map((item, index) => {
+                    {item.products.map((product, index) => {
                       return (
-                        <ProductCard image={item.image} name={item.name} price={item.price} />
+                        <ProductCard image={product.image} name={product.name} price={product.price} />
                       )
                     })}
                   </div>
