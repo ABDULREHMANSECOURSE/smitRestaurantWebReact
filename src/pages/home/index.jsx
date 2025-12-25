@@ -44,7 +44,44 @@ const Home = () => {
       products: [
         {
           image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711017-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Chiken", price: "200"
-        }
+        },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443348-Beef%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Beef", price: "200" }
+      ]
+    },
+    {
+      id: "biryaniPulao",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710155-_0006_biryani%2520and%2520piulao.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697440739-_0002_Javed%20New%20Design%204a.jpg%3Fq%3D10&w=640&q=75", name: "Chicken Biryani", price: "320" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711039-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Chicken Pulao", price: "320" }
+      ]
+    },
+    {
+      id: "tandoor",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710135-_0003_Tandoor.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697811007-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Dhoot Wali Roti", price: "50" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697440833-_0000_Javed%20New%20Design%206a.jpg%3Fq%3D10&w=640&q=75", name: "Roti", price: "30" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711159-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Sheermal", price: "100" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711130-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Taftan", price: "100" }
+      ]
+    },
+    {
+      id: "sweetDishes",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710131-_0002_Sweet%2520Dishes.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711122-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Single Rabri", price: "200" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711115-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Kheer", price: "100" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697711107-Javed%20Nihari.png%3Fq%3D10&w=640&q=75", name: "Kheer", price: "180" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443463-Rabri.png%3Fq%3D10&w=640&q=75", name: "Rabri", price: "700" }
+      ]
+    },
+    {
+      id: "softDrink",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710127-_0001_Soft%2520Drink.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        { image: "https://qarshihealthshop.com/cdn/shop/products/JS_3083961a-49c0-412e-81f5-eb33740fda78.png?v=1629455809", name: "Jam-e-Shirin", price: "476" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1708499051-ssss.webp%3Fq%3D10&w=640&q=75", name: "Mineral Water", price: "60" }
       ]
     }
   ]
