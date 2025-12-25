@@ -140,17 +140,19 @@ main {
 .products {
   display: flex;
   flex-direction: row;
-  gap: 2vw;
-  justify-content: space-between;
+  gap: 7%;
+  width: 100%;
   flex-wrap: wrap;
+  justify-content: left;
 }
 
 .productCard {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  flex: 1;
-  max-width: 240px;
+  min-width: 200px;
+  max-width: 245px;
   border-radius: 20px;
   box-shadow: 0 0 1.25rem .2rem rgba(0, 0, 0, .08);
   border: 3.5px rgb(242, 157, 19);
@@ -226,10 +228,6 @@ main {
 }
 
 @media(max-width:850px) {
-  .products {
-    justify-content: center;
-  }
-
   .productCard {
     flex: auto;
   }

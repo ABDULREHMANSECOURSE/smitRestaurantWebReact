@@ -83,6 +83,14 @@ const Home = () => {
         { image: "https://qarshihealthshop.com/cdn/shop/products/JS_3083961a-49c0-412e-81f5-eb33740fda78.png?v=1629455809", name: "Jam-e-Shirin", price: "476" },
         { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1708499051-ssss.webp%3Fq%3D10&w=640&q=75", name: "Mineral Water", price: "60" }
       ]
+    },
+    {
+      id: "tinPack",
+      topBaner: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710122-_0000_tin%2520pack.jpg%3Fq%3D10&w=1920&q=75",
+      products: [
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443501-_0006_9a.jpg%3Fq%3D10&w=640&q=75", name: "Nihari Can", price: "1600" },
+        { image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443501-_0006_9a.jpg%3Fq%3D10&w=640&q=75", name: "Beef Haleem Can", price: "1400" }
+      ]
     }
   ]
 
