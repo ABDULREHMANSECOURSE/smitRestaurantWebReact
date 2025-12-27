@@ -17,6 +17,7 @@ nav {
 nav>span {
   position: relative;
   display: flex;
+  width: 100%;
 }
 
 .navButtonsSpan {
@@ -297,6 +298,10 @@ main {
     justify-content: space-between;
   }
 
+  nav>span {
+    width: auto;
+  }
+
   .navCartSpan {
     display: none;
   }
@@ -308,7 +313,7 @@ main {
   }
 
   .navLogoSpan {
-    margin-top: -27px;
+    margin-top: -31px;
     height: 80px;
   }
 
