@@ -1,6 +1,7 @@
 import React from 'react'
 import { PProductCard, ProductCard } from '../../components/productCards'
 import SectionBtn from '../../components/sectionBtn'
+import Navbar from '../../components/layout/header/navbar'
 
 const Home = () => {
   const PopularProductsData = [
@@ -96,6 +97,9 @@ const Home = () => {
 
   return (
     <>
+      <header>
+        <Navbar />
+      </header>
       <main>
         <span className='categoryNav'>
           {sectionBtnData.map((iten, index) => {

@@ -2,7 +2,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "poppins";
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+nav>span {
+  position: relative;
+  display: flex;
+}
+
+.navButtonsSpan {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.navButtonsSpan button {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 7px;
+  padding: .23rem .75rem;
+  cursor: pointer;
+  background-color: rgb(242, 157, 19);
+  border: none;
+  color: #fff;
+}
+
+.navButtonsSpan h4 {
+  margin-left: .25rem !important;
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+.navButtonsSpan h6 {
+  font-weight: 600;
+}
+
+.navLogoSpan {
+  width: 110px;
+  margin-bottom: -60px;
+  justify-content: center;
+  z-index: 10;
+}
+
+.navCartSpan {
+  justify-content: end;
+}
+
 
 
 main {
@@ -236,6 +291,33 @@ main {
 
   .pProduct {
     height: 22em;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .navCartSpan {
+    display: none;
+  }
+
+  .navButtonsSpan {
+    margin: 10px 0 10px auto;
+    justify-self: end;
+    order: 3;
+  }
+
+  .navLogoSpan {
+    margin-top: -27px;
+    height: 80px;
+  }
+
+  .navButton1 {
+    gap: 0;
+  }
+
+  .navButton1Span {
+    display: none;
   }
 }
 
