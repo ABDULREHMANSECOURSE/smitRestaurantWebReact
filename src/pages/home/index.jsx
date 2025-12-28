@@ -2,8 +2,13 @@ import React from 'react'
 import { PProductCard, ProductCard } from '../../components/productCards'
 import SectionBtn from '../../components/sectionBtn'
 import Navbar from '../../components/layout/header/navbar'
+import Carousel from '../../components/carousel'
 
 const Home = () => {
+  const carouselImages = [
+    "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710299-header-2.jpg%3Fver%3D10&w=1920&q=90",
+    "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697710307-header-1.jpg%3Fver%3D10&w=1920&q=90",
+  ];
   const PopularProductsData = [
     { price: 600, name: "Nihari", image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697440665-_0008_7a.jpg%3Fq%3D10&w=384&q=75" },
     { price: 1000, name: "Nalli Nihari", image: "https://javednihari.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1697443215-Nali%20Nihari%20-min.png%3Fq%3D10&w=384&q=75" },
@@ -99,6 +104,7 @@ const Home = () => {
     <>
       <header>
         <Navbar />
+        <Carousel images={carouselImages} />
       </header>
       <main>
         <span className='categoryNav'>
