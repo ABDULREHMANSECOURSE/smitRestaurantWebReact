@@ -87,7 +87,7 @@ main {
   z-index: 9;
   align-items: center;
   gap: 1%;
-  padding: 0 2%;
+  padding: .25em 2%;
 }
 
 .categoryNav a {
